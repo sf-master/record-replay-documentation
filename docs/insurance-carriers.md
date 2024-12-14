@@ -71,6 +71,7 @@ Note: This is the class name to be used for individual checkbox/radio/image elem
 ---
 
 ### 2. Sample HTML with Radio-buttons
+
 ```html
 <div>
   <div>
@@ -97,6 +98,8 @@ Note: This is the class name to be used for individual checkbox/radio/image elem
 ```
 
 ---
+
+### 3. Sample HTML with Image
 
 ```html
 <div>
@@ -128,6 +131,8 @@ Note: This is the class name to be used for individual checkbox/radio/image elem
   </div>
 </div>
 ```
+
+---
 
 
 

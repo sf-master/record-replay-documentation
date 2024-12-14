@@ -5,7 +5,7 @@ title: Form Completion
 
 # Form Completion
 
-We are changing the way we capture form completion; partners will no longer need to integrate the complete session API manually.
+We are introducing a new solution for capturing form completion, removing the need for manual integration of the complete session API.
 
 ## Description
 
@@ -54,3 +54,5 @@ consent-confirmation-form-submit
     <i class="fas fa-check"></i> Submit
 </button>
 ```
+
+---
