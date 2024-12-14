@@ -76,6 +76,7 @@ Note: This is the class name to be used for individual checkbox/radio/image elem
 <div>
   <div>
     <input type="radio" id="companies_1" value="true"
+      name="insurance_companies"
       class="consent-confirmation-brand"
       data-brand-name="State Farm">
     <label for="companies_1">
@@ -86,6 +87,7 @@ Note: This is the class name to be used for individual checkbox/radio/image elem
   </div>
   <div>
     <input type="radio" id="companies_2" value="true"
+      name="insurance_companies"
       class="consent-confirmation-brand"
       data-brand-name="Allstate Insurance">
     <label for="companies_2">
