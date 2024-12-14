@@ -5,7 +5,7 @@ title: Insurance Carriers
 
 # Insurance Carriers
 
-We now have the ability to capture insurance carriers present within forms. This feature allows you to capture the list of insurance carriers present in the form.
+This feature allows capturing and tracking the selection of insurance carriers within forms. It observes user interactions with checkboxes or radio buttons to automatically record and update the selected options for processing.
 
 ---
 

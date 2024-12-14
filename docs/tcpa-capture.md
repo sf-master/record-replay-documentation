@@ -5,7 +5,7 @@ title: TCPA Capture
 
 # TCPA Capture
 
-We are capturing the TCPA added to the forms automatically using a unique identifier for the element containing TCPA Disclosure.
+TCPA disclosure refers to the message displayed to users regarding consent for communications. This solution automatically captures the TCPA disclosure text from forms using a unique identifier, ensuring it is recorded and processed without manual effort.
 
 ---
 

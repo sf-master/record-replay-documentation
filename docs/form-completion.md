@@ -5,7 +5,7 @@ title: Form Completion
 
 # Form Completion
 
-Form completion refers to capturing the event when a user successfully submits a form. We are introducing a new solution to handle this automatically, removing the need for manual integration of the complete session API.
+Form completion refers to capturing the event when a user successfully submits a form. This solution automates the process, eliminating the need for manual integration and ensuring seamless tracking of form submissions. qw
 
 ## Description
 
