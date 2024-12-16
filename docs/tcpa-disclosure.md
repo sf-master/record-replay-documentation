@@ -1,9 +1,9 @@
 ---
-id: tcpa-capture
-title: TCPA Capture
+id: tcpa-disclosure
+title: TCPA Disclosure
 ---
 
-# TCPA Capture
+# TCPA Disclosure
 
 TCPA disclosure refers to the message displayed to users regarding consent for communications. This solution automatically captures the TCPA disclosure text from forms using a unique identifier, ensuring it is recorded and processed without manual effort.
 
@@ -11,31 +11,18 @@ TCPA disclosure refers to the message displayed to users regarding consent for c
 
 ## Description
 
-The **TCPA Disclosure** label should be placed around the disclosure text displayed on forms. The class name will allow us to capture the entire text contained within the element.
+The **TCPA Disclosure** label should be placed around the disclosure text displayed on forms. The class will allow us to capture the entire text contained within the element.
 
-- This class will be used to extract and display the TCPA on the **certificate details page** in a popup after applying any required formatting (in the case of HTML).
-
----
-
-## Class Name
+To enable this functionality, add the following **class** to the HTML element containing the TCPA disclosure text:
 ```plaintext
 consent-confirmation-tcpa-disclosure
 ```
 
----
-
-### 1. Sample HTML with Basic TCPA Disclosure
-
-```html
-<div class="consent-confirmation-tcpa-disclosure">
-    By clicking submit, I agree to receive calls and texts at the number provided. Carrier rates may apply. 
-    I understand these calls may be generated using automated technology.
-</div>
-```
+This class will be used to extract and display the TCPA on the **certificate details page** in a popup after applying any required formatting (in the case of HTML).
 
 ---
 
-### 2. Sample HTML with Advanced TCPA Disclosure (Formatted Version)
+### Sample HTML with TCPA Disclosure
 
 ```html
 <div class="consent-confirmation-tcpa-disclosure">

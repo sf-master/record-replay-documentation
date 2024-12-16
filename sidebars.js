@@ -24,8 +24,8 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'tcpa-capture',
-      label: 'TCPA Capture',
+      id: 'tcpa-disclosure',
+      label: 'TCPA Disclosure',
     },
     {
       type: 'doc',
