@@ -31,7 +31,7 @@ The [Form Completion](form-completion) functionality must be implemented for the
   - Each input element must include the `data-brand-name` attribute, which stores the name of the insurance carrier (e.g., "State Farm").
 - **Unique ID**:
 
-  - Each input checkbox or radiobutton element must have a unique `id`.
+  - Each input checkbox or radio button element must have a unique `id`.
 
 - **Labels**:
   - Ensure each input element has a corresponding `<label>` for better accessibility and usability.

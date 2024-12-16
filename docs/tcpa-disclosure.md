@@ -19,7 +19,7 @@ To enable this functionality, add the following **class** to the HTML element co
 consent-confirmation-tcpa-disclosure
 ```
 
-This class will be used to extract and display the TCPA on the **certificate details page** in a popup after applying any required formatting (in the case of HTML).
+This class will be used to extract and display the TCPA on the **certificate details page** in a pop-up after applying any required formatting (in the case of HTML).
 
 ---
 
