@@ -16,6 +16,7 @@ To enable this functionality, add the following **class** to the input elements 
 ```plaintext
 consent-confirmation-brand
 ```
+
 Note: This is the class to be used for individual checkbox/radio/image elements.
 
 ### Prerequisite
@@ -28,8 +29,8 @@ The [Form Completion](form-completion) functionality must be implemented for the
 
 - **`data-brand-name` Attribute**:
   - Each input element must include the `data-brand-name` attribute, which stores the name of the insurance carrier (e.g., "State Farm").
-  
 - **Unique ID**:
+
   - Each input checkbox or radiobutton element must have a unique `id`.
 
 - **Labels**:
@@ -41,26 +42,30 @@ The [Form Completion](form-completion) functionality must be implemented for the
 
 ```html
 <div>
-    <div>
-        <input type="checkbox" id="companies_1" value="true"
-            class="consent-confirmation-brand"
-            data-brand-name="State Farm">
-        <label for="companies_1">
-            <p>
-                <img src="statefarm.png" alt="State Farm">
-            </p>
-        </label>
-    </div>
-    <div>
-        <input type="checkbox" id="companies_2" value="true"
-            class="consent-confirmation-brand"
-            data-brand-name="Allstate Insurance">
-        <label for="companies_2">
-            <p>
-                <img src="allstate.png" alt="Allstate Insurance">
-            </p>
-        </label>
-    </div>
+  <div>
+    <input
+      type="checkbox"
+      id="companies_1"
+      value="true"
+      class="consent-confirmation-brand"
+      data-brand-name="State Farm"
+    />
+    <label for="companies_1">
+      <p>
+        <img src="statefarm.png" alt="State Farm" />
+      </p>
+    </label>
+  </div>
+  <div>
+    <input
+      type="checkbox"
+      id="companies_2"
+      value="true"
+      class="consent-confirmation-brand"
+      data-brand-name="Allstate Insurance"
+    />
+    <label for="companies_2"> Allstate Insurance </label>
+  </div>
 </div>
 ```
 
@@ -71,24 +76,32 @@ The [Form Completion](form-completion) functionality must be implemented for the
 ```html
 <div>
   <div>
-    <input type="radio" id="companies_1" value="true"
+    <input
+      type="radio"
+      id="companies_1"
+      value="true"
       name="insurance_companies"
       class="consent-confirmation-brand"
-      data-brand-name="State Farm">
+      data-brand-name="State Farm"
+    />
     <label for="companies_1">
       <p>
-        <img src="statefarm.png" alt="State Farm">
+        <img src="statefarm.png" alt="State Farm" />
       </p>
     </label>
   </div>
   <div>
-    <input type="radio" id="companies_2" value="true"
+    <input
+      type="radio"
+      id="companies_2"
+      value="true"
       name="insurance_companies"
       class="consent-confirmation-brand"
-      data-brand-name="Allstate Insurance">
+      data-brand-name="Allstate Insurance"
+    />
     <label for="companies_2">
       <p>
-        <img src="allstate.png" alt="Allstate Insurance">
+        <img src="allstate.png" alt="Allstate Insurance" />
       </p>
     </label>
   </div>
