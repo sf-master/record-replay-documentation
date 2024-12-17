@@ -55,15 +55,15 @@ The response contains the consent details of insurance carriers and TCPA disclai
         "certificate_id": "24fc3c9f3591421891197cd2ef78645a",
         "insurance_carriers": [
             {
-                "carrier_name": "carier 1",
+                "carrier_name": "carrier 1",
                 "consented": true
             },
             {
-                "carrier_name": "carier 2",
+                "carrier_name": "carrier 2",
                 "consented": true
             },
             {
-                "carrier_name": "21st Century Insurance new",
+                "carrier_name": "21st Century Insurance",
                 "consented": true
             },
             {
