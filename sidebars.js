@@ -32,6 +32,16 @@ const sidebars = {
       id: 'insurance-carriers',
       label: 'Insurance Carriers',
     },
+    {
+      type: 'category',
+      label: 'API',
+      collapsible: true, // Makes the category dropdown collapsible
+      collapsed: true,   // By default, it will be collapsed
+      items: [
+        'api/insurance-carrier-details'
+        
+      ],
+    },
   ],
 };
 
