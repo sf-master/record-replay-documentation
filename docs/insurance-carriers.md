@@ -112,7 +112,7 @@ The [Form Completion](form-completion) functionality must be implemented for the
 
 ### 3. Select All Functionality (Optional)
 
-If the form includes a `Select All` checkbox option, it is mandatory to add the following class to this checkbox.
+If the form includes a `Select All` checkbox option which controls the checked state of other checkboxes, then setting the following class is **recommended**.
 
 ```plaintext
 consent-confirmation-brand-selectall

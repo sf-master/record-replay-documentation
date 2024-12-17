@@ -51,7 +51,7 @@ Additionally, **observers** will ensure that:
 
 ### Input Field Support (Optional)
 
-To mark the form as completed on pressing the **Enter key** in the **last input field with `type="text"`**, you can optionally add the `consent-confirmation-form-submit` class to this field. This ensures that the form is marked as completed even if it is not submitted via a button.
+To mark the form as completed on pressing the **Enter key** in the **last input field with type `email`, `text` or `number`**, you can optionally add the `consent-confirmation-form-submit` class to this field. This ensures that the form is marked as completed even if it is not submitted via a button.
 
 **Example:**
 
@@ -60,24 +60,16 @@ To mark the form as completed on pressing the **Enter key** in the **last input 
   <label for="email">Email:</label>
   <input type="text" id="email" placeholder="Enter your email" required />
 
+  <!-- Last input with the target class -->
   <label for="phone">Phone:</label>
   <input
     type="text"
     id="phone"
+    class="consent-confirmation-form-submit"
     placeholder="Enter your phone number"
     required
   />
 
-  <label for="city">City:</label>
-  <input type="text" id="city" placeholder="Enter your city" required />
-
-  <!-- Last input with the target class -->
-  <label for="age">Age</label>
-  <input
-    type="text"
-    class="consent-confirmation-form-submit"
-    placeholder="Enter your age"
-  />
   <button type="submit" class="consent-confirmation-form-submit">Submit</button>
 </form>
 ```
