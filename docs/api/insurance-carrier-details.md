@@ -25,6 +25,12 @@ The API requires a **Bearer Token** for authorization. Include the token in the 
 Authorization: Bearer <your account API token>
 ```
 
+### How to Obtain the API Token
+
+1. Log in to the portal at [Consent Confirmation](https://portal.consentconfirmation.com/dashboard).
+2. Click the **View Token** button located in the top-right corner.
+3. Copy the displayed API token.
+
 ---
 
 ## Request Body (Optional)
