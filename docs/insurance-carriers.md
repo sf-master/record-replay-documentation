@@ -19,12 +19,6 @@ consent-confirmation-brand
 
 Note: This is the class to be used for individual checkbox/radio/image elements.
 
-### Prerequisite
-
-The [Form Completion](form-completion) functionality must be implemented for the "Insurance Carriers" capture to work. Ensure the required steps outlined in the Form Completion section are completed before proceeding.
-
----
-
 ### Additional Requirements
 
 - **`data-brand-name` Attribute**:
